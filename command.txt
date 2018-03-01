@@ -1,0 +1,7 @@
+mkdir test       //创建test文件夹
+touch test.txt   //创建test文件夹
+vi test.txt      //修改test.txt文件
+i                //i启用编辑
+esc              //退出编辑
+:wq              //保存编辑
+  
