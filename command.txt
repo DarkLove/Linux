@@ -1,7 +1,11 @@
+su root          //获取root权限
 mkdir test       //创建test文件夹
 touch test.txt   //创建test文件夹
 vi test.txt      //修改test.txt文件
 i                //i启用编辑
 esc              //退出编辑
 :wq              //保存编辑
-  
+cp -r m n        //如果n目录不存在，则需要使用   将文件m的目录复制到n目录下
+cp -r m/. n      //如果n目录已存在，则需要使用   将文件m的目录复制到n目录下
+rm -rf m         //删除m目录
+rm -f m.txt         //删除m.txt文件
